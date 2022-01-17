@@ -5762,7 +5762,7 @@ def eval_delta_theta(J, r, xi, q, chi1, chi2, precomputedroots=None):
     return delta_theta
 
 
-# TODO: come up with better description, CHECK INPUTS
+# TODO: come up with better description
 def eval_bracket_theta(J, r, q, chi1, chi2, method='quadrature', Nsamples=1e4):
     """
     Precession average of precession amplitude of S as it oscillates from S- to S+ back to S-
